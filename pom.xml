@@ -45,14 +45,14 @@
     </issueManagement>
 <distributionManagement>
     <repository>
-        <id>central</id>
-        <name>plugins-releases</name>
-        <url>http://serverip:8081/artifactory/plugins-release-local</url>
+        <id>nexus</id>
+        <name>releases</name>
+        <url>http://localhost:8081/repository/Maven-Sonar-Release/</url>
     </repository>
     <snapshotRepository>
-        <id>snapshots</id>
+        <id>nexus</id>
         <name>plugins-snapshot</name>
-        <url>http://serverip:8081/artifactory/plugins-snapshot-local</url>
+        <url>http://localhost:8081/repository/Maven-Sonar-Snapshot/</url>
     </snapshotRepository>
 </distributionManagement>
 	
